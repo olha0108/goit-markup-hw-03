@@ -106,7 +106,6 @@ outline: 1px solid var(--greylight-color);
   color: var(--dark-color);
   letter-spacing: 0.02em;
   list-style-type: none;
-  margin: 0;
 }
 .head-pages {
   display: flex;
@@ -115,12 +114,14 @@ outline: 1px solid var(--greylight-color);
 }
 
 .header-item {
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .current,
 .head-pages:hover,
-.head-pages:focus {
+.head-pages:focus,
+.header-list:hover,
+.header-list:focus {
   color: var(--accent-color);
 }
 
@@ -138,11 +139,6 @@ outline: 1px solid var(--greylight-color);
 .head-mail-list {
   display: flex;
   margin-left: auto;
-}
-
-.top-mail:hover,
-.top-mail:focus {
-  color: var(--accent-color);
 }
 
 .banner {
