@@ -63,7 +63,7 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
   background-color: var(--white-color);
-outline: 1px solid var(--greylight-color);
+  outline: 1px solid var(--greylight-color);
 }
 
 .portfol-item:nth-child(3n) {
@@ -336,4 +336,17 @@ img {
 .kontakt-white:hover,
 .kontakt-white:focus {
   color: var(--accent-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
