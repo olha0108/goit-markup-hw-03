@@ -27,6 +27,7 @@ body {
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
+  border-bottom: 1px solid var(--greylight-color);
 }
 
 .container-nav {
@@ -40,6 +41,7 @@ body {
 }
 
 .logo {
+  display: block;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -99,6 +101,9 @@ body {
   margin-bottom: 50px;
   justify-content: center;
 }
+.filtr-item {
+  margin-right: 8px;
+}
 
 .header-list {
   display: flex;
@@ -121,18 +126,17 @@ body {
 .head-pages:hover,
 .head-pages:focus,
 .header-list:hover,
-.header-list:focus {
+.header-list:focus,
+.header-head:hover,
+.header-head:focus {
   color: var(--accent-color);
 }
 
-.head-mail {
-  display: flex;
+.header-head {
   color: var(--primary-color);
 }
 
 .head-phone {
-  display: flex;
-  color: var(--primary-color);
   margin-left: 50px;
 }
 
@@ -198,7 +202,6 @@ body {
 .second {
   background-color: var(--greylight-fon);
   color: var(--dark-color);
-  margin-right: 8px;
 }
 
 .section {
@@ -224,7 +227,8 @@ body {
 .comanda-item:last-child,
 .our-work-item:last-child,
 .kontakt-light:last-child,
-.header-item:last-child {
+.header-item:last-child,
+.filtr-item:last-child {
   margin-right: 0px;
 }
 
@@ -314,6 +318,7 @@ img {
 
 .kontakt {
   margin-bottom: 20px;
+  margin-right: 0px;
 }
 .kontakt-light {
   color: var(--white-color-transp);
@@ -325,7 +330,6 @@ img {
   font-style: normal;
   line-height: 1.71;
   list-style-type: none;
-  margin-top: 20px;
 }
 .kontakt-bottom {
   margin-top: 9px;
